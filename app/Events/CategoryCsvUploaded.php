@@ -14,7 +14,7 @@ class CategoryCsvUploaded
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    private mixed $path;
+    public mixed $path;
 
     /**
      * Create a new event instance.
